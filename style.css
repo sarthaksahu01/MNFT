@@ -1,0 +1,44 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.section-1-image-background img {
+  /* background-image: url("./images/section-1-image-background.jpg"); */
+  height: 100vh;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.section-1-container {
+  background-color: rgba(221, 160, 221, 0.585);
+  color: aliceblue;
+  display: flex;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  height: 450px;
+  border-radius: 20px;
+  width: 800px;
+}
+
+.section-1-introduction-para {
+  width: 63%;
+  font-size: 25px;
+  padding: 50px;
+  justify-content: center;
+}
+
+.section-1-introduction-image img {
+  height: 100%;
+  opacity: 0.9;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.section-2-image-background img {
+  height: 100%;
+  /* background-attachment: fixed; */
+  width: 100%;
+}
